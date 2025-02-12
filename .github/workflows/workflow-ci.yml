@@ -17,6 +17,6 @@ jobs:
     - name: Use Node.js 
       uses: actions/setup-node@v3
       with:
-        node-version: v18.
-    - run: npm install
+        node-version: v20
+   - run: npm instal
     - run: npm test
